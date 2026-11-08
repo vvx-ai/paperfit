@@ -84,10 +84,12 @@ python scripts/paperfit.py flow pages.docx final.docx
 
 ## 发布包与历史记录
 
-GitHub 源码提交范围和自动检查见 [GitHub 仓库说明](references/github.md)。仓库应以本 paperfit 目录为根；首次推送后核对 GitHub Actions 结果。当前尚未选定项目许可证，未添加 LICENSE 文件。
+GitHub 源码提交范围和自动检查见 [GitHub 仓库说明](references/github.md)。仓库应以本 paperfit 目录为根；首次推送后核对 GitHub Actions 结果。
 
 交付包包含源码、Skill、说明和合成测试，不包含 output 中的用户论文、审核清单、原始模板、应用预览、缓存或虚拟环境。依赖不随包分发，也未发布到公共仓库或 PyPI。
 
 在项目根目录运行 `python scripts/build_release.py releases` 可重新打包并生成 SHA-256 校验文件。同一版本的已有包不会覆盖。
 
 早期 README 已存入工作区 `references/history/README_before_v0.3.md`，仅作历史记录，不作为当前使用说明，也不进入发布包。各阶段工作日志保留在工作区。
+
+本项目采用 [MIT License](LICENSE)。
