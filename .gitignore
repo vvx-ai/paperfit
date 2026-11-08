@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+output/
+releases/*.zip
+releases/*.sha256
+releases/*.json
+smoke-output/
+
+# Local documents, credentials and internal acceptance history are not source.
+*.doc
+*.docx
+*.pdf
+~$*
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.coverage
+htmlcov/
+references/history/
+工作报告_*.md
+工作日志_*.md
+Phase3结项报告_*.md
